@@ -25,6 +25,8 @@ public class BotKido {
 		robo = new Robot();
 		state = 0;
 		dangerousMaterials = new ArrayList<Color>();
+		
+		//TODO: add missing colors (to reduce color distance threshold)
 		Color normalWoodLeft;
 		Color normalWoodMid;
 		Color normalWoodRight;
